@@ -60,4 +60,16 @@ h5{
 .hero_top img{
     width: 65%;
 }
-#
+
+.game_it_takes_two img{
+    width: 58%;
+}
+
+.game_it_takes_two{
+    background-image: url(/img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    background-repeat: no-repeat;
+}
+
