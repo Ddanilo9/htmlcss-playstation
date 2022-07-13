@@ -1,0 +1,40 @@
+/* setting */
+
+:root{
+    --bsf-black: #000000;
+    --bsf-dark-gray: #1F1F1F;
+    --bsf-lightgray: #363636;
+    --bsf-orange: #CD3D0F;
+    --bsf-darkBlue: #161C3B;
+    --bsf-blue: #00439C;
+    --bsf-lightBlue: #2D64E6;
+}
+.bsf_bg_black {
+    background-color: var(--bsf-black);
+}
+.bsf_bg_dark-gray {
+    background-color: var(--bsf-dark-gray);
+}
+.bsf_bg_lightgray {
+    background-color: var(--bsf-lightgray);
+}
+.bsf_bg_orange {
+    background-color: var(--bsf-orange);
+}
+.bsf_bg_darkBlue {
+    background-color: var(--bsf-darkBlue);
+}
+.bsf_bg_blue {
+    background-color: var(--bsf-blue);
+}
+.bsf_bg_lightBlue {
+    background-color: var(--bsf-lightBlue);
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
