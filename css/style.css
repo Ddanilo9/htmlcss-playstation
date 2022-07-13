@@ -36,6 +36,10 @@ body{
 img{
     max-width: 100%;
 }
+.rounded_4{
+    border-radius: 0.6rem;
+}
+
 /* hero ********/
 .hero_top{
     background-image: url(/img/jumbo-bg.png);
@@ -51,5 +55,4 @@ h2{
 
 .hero_top img{
     width: 65%;
-
 }
