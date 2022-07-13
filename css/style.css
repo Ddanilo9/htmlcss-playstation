@@ -33,8 +33,23 @@
 body{
     font-family: 'Inter', sans-serif;
 }
-
 img{
     max-width: 100%;
 }
+/* hero ********/
+.hero_top{
+    background-image: url(/img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 580px;
+    background-repeat: no-repeat;
+}
 
+h2{
+    font-size: 40px;
+}
+
+.hero_top img{
+    width: 65%;
+
+}
