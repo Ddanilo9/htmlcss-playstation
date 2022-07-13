@@ -50,9 +50,14 @@ img{
 }
 
 h2{
-    font-size: 40px;
+    font-size: 38px;
+}
+
+h5{
+    color: var(--bsf-lightBlue);
 }
 
 .hero_top img{
     width: 65%;
 }
+#
