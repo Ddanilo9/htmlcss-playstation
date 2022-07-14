@@ -89,7 +89,6 @@ h5{
     padding: 1px;
     border: 2px solid var(--bsf-lightBlue);
     border-radius: 0.7rem;
-    display: ;
 }
 .hero_top{
     background-image: url(../img/jumbo-bg.png);
@@ -98,21 +97,19 @@ h5{
     height: 580px;
     background-repeat: no-repeat;
 }
+.hero_top img, .ps_now img{
+    width: 65%;
+}
 /* ps5 presentation*****/
 
 .wrapper_ps5_cards .col img{
     opacity: 0.6;
 }
-
-/* * */
-.hero_top img, .ps_now img{
-    width: 65%;
-}
+/* it takes two */
 
 .game_it_takes_two img, .ps_plus img{
     width: 58%;
 }
-
 .game_it_takes_two{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
@@ -120,11 +117,11 @@ h5{
     height: 600px;
     background-repeat: no-repeat;
 }
+/* ps plus */
 
 .ps_plus button{
     color: #2D64E6;
 }
-
 .bg_col_img{
     background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
     background-position: center;
@@ -133,6 +130,7 @@ h5{
     background-repeat: no-repeat;
 }
 
+/* ps now */
 .bg_image_now{
     background-image: url(../img/ps-now-april-featured-image-block.png);
     background-position: center;
@@ -141,23 +139,15 @@ h5{
     background-repeat: no-repeat;
 }
 
+/* media **********************************************************/
 @media screen and (min-width: 767px) {
     .bg_col_img{
         height: 28.5vw;
-    }
-    .bg_image_now{
-        height: 30vh;
     }
     .ps_now{
         padding: 0;
     }
     .bg_image_now{
-        height: 35vh;
-    }
-
-  }
-@media screen and (min-width: 991px) {
-    .bg_image_now{
-        height: 50vh;
+        height: 35vw;
     }
   }
