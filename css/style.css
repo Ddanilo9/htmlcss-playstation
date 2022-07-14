@@ -10,6 +10,10 @@
     --bsf-darkBlue: #161C3B;
     --bsf-blue: #00439C;
     --bsf-lightBlue: #2D64E6;
+
+    --fw-medium: 500;
+    --fs-medium: 20px;
+    --fs-large: 24px;
 }
 .bsf_bg_black {
     background-color: var(--bsf-black);
@@ -38,6 +42,16 @@
 .bsf_bg_lightBlue {
     background-color: var(--bsf-lightBlue);
 }
+.fw_medium{
+    font-weight: 500;
+}
+.fs_medium{
+    font-size: 20px;
+    color: #727272;
+}
+.fs_large{
+    font-size: 24px;
+}
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -45,10 +59,38 @@ img{
     max-width: 100%;
 }
 .rounded_4{
-    border-radius: 0.6rem;
+    border-radius: 0.7rem;
+}
+
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 32px;
+}
+h5{
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--bsf-lightBlue);
 }
 /* header */
+.dropdown-toggle{
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-toggle::after{
+    border:none;
+    content: '\f107';
+    font: var(--fa-font-solid);
+}
 /* hero ********/
+.card_images{
+    padding: 1px;
+    border: 2px solid var(--bsf-lightBlue);
+    border-radius: 0.7rem;
+    display: ;
+}
 .hero_top{
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
@@ -56,15 +98,13 @@ img{
     height: 580px;
     background-repeat: no-repeat;
 }
+/* ps5 presentation*****/
 
-h2{
-    font-size: 38px;
+.wrapper_ps5_cards .col img{
+    opacity: 0.6;
 }
 
-h5{
-    color: var(--bsf-lightBlue);
-}
-
+/* * */
 .hero_top img, .ps_now img{
     width: 65%;
 }
@@ -107,6 +147,12 @@ h5{
     }
     .bg_image_now{
         height: 30vh;
+    }
+    .ps_now{
+        padding: 0;
+    }
+    .bg_image_now{
+        height: 35vh;
     }
 
   }
