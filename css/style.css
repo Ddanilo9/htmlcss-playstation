@@ -39,7 +39,7 @@
     background-color: var(--bsf-lightBlue);
 }
 body{
-    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 img{
     max-width: 100%;
@@ -47,7 +47,7 @@ img{
 .rounded_4{
     border-radius: 0.6rem;
 }
-
+/* header */
 /* hero ********/
 .hero_top{
     background-image: url(/img/jumbo-bg.png);
@@ -81,3 +81,20 @@ h5{
     background-repeat: no-repeat;
 }
 
+.ps_plus button{
+    color: #2D64E6;
+}
+
+.bg_col_img{
+    background-image: url(/img/ps-plus-april-monthly-games-featured-image-block.png);
+    background-position: center;
+    background-size: contain;
+    height: 0;
+    background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 767px) {
+    .bg_col_img{
+        height: 28.5vw;
+    }
+  }
