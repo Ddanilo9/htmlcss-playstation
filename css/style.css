@@ -50,7 +50,7 @@ img{
 /* header */
 /* hero ********/
 .hero_top{
-    background-image: url(/img/jumbo-bg.png);
+    background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-position: center;
     height: 580px;
@@ -74,7 +74,7 @@ h5{
 }
 
 .game_it_takes_two{
-    background-image: url(/img/it-takes-two-hero-banner-desktop.jpg);
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
     background-position: center;
     height: 600px;
@@ -86,7 +86,7 @@ h5{
 }
 
 .bg_col_img{
-    background-image: url(/img/ps-plus-april-monthly-games-featured-image-block.png);
+    background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
     background-position: center;
     background-size: contain;
     height: 0;
@@ -94,7 +94,7 @@ h5{
 }
 
 .bg_image_now{
-    background-image: url(/img/ps-now-april-featured-image-block.png);
+    background-image: url(../img/ps-now-april-featured-image-block.png);
     background-position: center;
     background-size: contain;
     height: 0;
@@ -108,6 +108,7 @@ h5{
     .bg_image_now{
         height: 30vh;
     }
+
   }
 @media screen and (min-width: 991px) {
     .bg_image_now{
