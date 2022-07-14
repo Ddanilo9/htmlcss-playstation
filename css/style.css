@@ -4,6 +4,8 @@
     --bsf-black: #000000;
     --bsf-dark-gray: #1F1F1F;
     --bsf-lightgray: #363636;
+    --bsf-extralightGray: #BEBCBB;
+    --bsf-btnGray: #D9DADC;
     --bsf-orange: #CD3D0F;
     --bsf-darkBlue: #161C3B;
     --bsf-blue: #00439C;
@@ -17,6 +19,12 @@
 }
 .bsf_bg_lightgray {
     background-color: var(--bsf-lightgray);
+}
+.bsf_extralightGray {
+    background-color: var(--bsf-extralightGray);
+}
+.bsf-btnGray {
+    background-color: var(--bsf-btnGray);
 }
 .bsf_bg_orange {
     background-color: var(--bsf-orange);
@@ -61,7 +69,7 @@ h5{
     width: 65%;
 }
 
-.game_it_takes_two img{
+.game_it_takes_two img, .ps_plus img{
     width: 58%;
 }
 
