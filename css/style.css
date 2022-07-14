@@ -65,7 +65,7 @@ h5{
     color: var(--bsf-lightBlue);
 }
 
-.hero_top img{
+.hero_top img, .ps_now img{
     width: 65%;
 }
 
@@ -93,8 +93,24 @@ h5{
     background-repeat: no-repeat;
 }
 
+.bg_image_now{
+    background-image: url(/img/ps-now-april-featured-image-block.png);
+    background-position: center;
+    background-size: contain;
+    height: 0;
+    background-repeat: no-repeat;
+}
+
 @media screen and (min-width: 767px) {
     .bg_col_img{
         height: 28.5vw;
+    }
+    .bg_image_now{
+        height: 30vh;
+    }
+  }
+@media screen and (min-width: 991px) {
+    .bg_image_now{
+        height: 50vh;
     }
   }
