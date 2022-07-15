@@ -1,0 +1,183 @@
+/* setting */
+
+:root{
+    --bsf-black: #000000;
+    --bsf-dark-gray: #1F1F1F;
+    --bsf-lightgray: #363636;
+    --bsf-extralightGray: #BEBCBB;
+    --bsf-btnGray: #D9DADC;
+    --bsf-orange: #CD3D0F;
+    --bsf-darkBlue: #161C3B;
+    --bsf-blue: #00439C;
+    --bsf-lightBlue: #2D64E6;
+
+    --fw-medium: 500;
+    --fs-medium: 20px;
+    --fs-large: 24px;
+}
+.bsf_bg_black {
+    background-color: var(--bsf-black);
+}
+.bsf_bg_dark-gray {
+    background-color: var(--bsf-dark-gray);
+}
+.bsf_bg_lightgray {
+    background-color: var(--bsf-lightgray);
+}
+.bsf_extralightGray {
+    background-color: var(--bsf-extralightGray);
+}
+.bsf-btnGray {
+    background-color: var(--bsf-btnGray);
+}
+.bsf_bg_orange {
+    background-color: var(--bsf-orange);
+}
+.bsf_bg_darkBlue {
+    background-color: var(--bsf-darkBlue);
+}
+.bsf_bg_blue {
+    background-color: var(--bsf-blue);
+}
+.bsf_bg_lightBlue {
+    background-color: var(--bsf-lightBlue);
+}
+.fw_medium{
+    font-weight: 500;
+}
+.fs_medium{
+    font-size: 20px;
+    color: #727272;
+}
+.fs_large{
+    font-size: 24px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.rounded_4{
+    border-radius: 0.7rem;
+}
+
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 32px;
+}
+h5{
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--bsf-lightBlue);
+}
+/* header */
+.dropdown-toggle{
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-toggle::after{
+    border:none;
+    content: '\f107';
+    font: var(--fa-font-solid);
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: var(--bsf-lightBlue);
+}
+
+.bsf_bg_lightgray:hover{
+    background-color: rgb(75, 74, 73);
+}
+/* hero ********/
+.card_images{
+    padding: 1px;  
+    border-radius: 0.7rem;
+    transition: all 0.5s;
+}
+.card_images:hover{
+    border: 2px solid var(--bsf-lightBlue);
+    transform: translateY(-10px);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.hero_top{
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 580px;
+    background-repeat: no-repeat;
+}
+.hero_top img, .ps_now img{
+    width: 65%;
+}
+/* ps5 presentation*****/
+
+.wrapper_ps5_cards .col img{
+    opacity: 0.6;
+}
+.wrapper_ps5_cards .col img:hover{
+    opacity: 1;
+    border-bottom:2px solid var(--bsf-lightBlue);
+}
+
+/* it takes two */
+
+.game_it_takes_two img, .ps_plus img{
+    width: 58%;
+}
+.game_it_takes_two{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    background-repeat: no-repeat;
+}
+/* soon games*/
+.soon_games .container img{
+    transition: all 0.5s;
+}
+.soon_games .container img:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+}
+/* ps plus */
+.ps_plus button{
+    color: #2D64E6;
+}
+.bg_col_img{
+    background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
+    background-position: center;
+    background-size: contain;
+    height: 0;
+    background-repeat: no-repeat;
+}
+/* ps now */
+.bg_image_now{
+    background-image: url(../img/ps-now-april-featured-image-block.png);
+    background-position: center;
+    background-size: contain;
+    height: 0;
+    background-repeat: no-repeat;
+}
+/* follow us*/
+    .follow_us .container .row img{
+        transition: 0.5s;
+    }
+    .follow_us .container .row img:hover{
+        transform: scale(1.02);
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;    }
+
+/* media **********************************************************/
+@media screen and (min-width: 767px) {
+    .bg_col_img{
+        height: 28.5vw;
+    }
+    .ps_now{
+        padding: 0;
+    }
+    .bg_image_now{
+        height: 35vw;
+    }
+  }
