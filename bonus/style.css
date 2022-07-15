@@ -74,6 +74,18 @@ h5{
     color: var(--bsf-lightBlue);
 }
 /* header */
+header{
+    position: fixed;
+    background-color: white;
+    right: 0;
+    left: 0;
+    z-index: 99;
+    top: 0;
+}
+
+header + *{
+    margin-top: 108px;
+}
 .dropdown-toggle{
     display: flex;
     align-items: center;
